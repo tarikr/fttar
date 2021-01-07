@@ -3,7 +3,8 @@ on:
    push:
      branches:
        - master
-         -  paths:
+         - main
+     paths:
        - 'packages/container/**'
 
 defaults:
